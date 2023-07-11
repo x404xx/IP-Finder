@@ -34,7 +34,7 @@ print(response.json())
 -  ### **_curl_**
 
 ```
-curl https://subdomain-api.up.railway.app/search?domain='YOUR_DOMAIN'
+curl https://subdomain-api.up.railway.app/search?domain=maxis.com.my
 ```
 
 ## **Output**
