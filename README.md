@@ -2,16 +2,16 @@
 
 # IPFinder <img src="https://github.com/x404xx/Sub-finder/assets/114883816/54d26b01-0480-48fa-b188-c12088108111" width="25">
 
-**IPFinder** is a Rest-API that helps you quickly discover the `REAL IP` of a website with lightning-fast speed and precision, especially for Cloudflare websites. It's the fastest on GitHub. 
+**IPFinder** is a Rest-API that helps you quickly discover the `REAL IP` of a website with lightning-fast speed and precision, especially for websites protected by Cloudflare. It's the fastest on GitHub. 
 
 </div>
 
 > **Note**
-> For the first request, it may take some time to respond due to spin down or inactivity. Remember not all the results are positive.
+> For the first request, it may take some time to respond due to spin down or inactivity. **_Remember not all the results are positive._**
 
 ## Made With
 
--   [Quart](https://quart.palletsprojects.com/en/latest/index.html)
+-   [Quart](https://quart.palletsprojects.com/en/latest/index.html) - Using Hypercorn or an alternative ASGI server
 
 ## Methods
 
@@ -21,7 +21,7 @@
 -   DNS Dumpster (DNS Info) - **_False_** by default
 -   Port Scanner (Scanning port on Real IP) - **_False_** by default
 > **Note**
-> Enable the Port Scanner only if both CrimeFlare and ZoomEye are set to ‘True’.
+> Enable the Port Scanner only if both CrimeFlare or ZoomEye are set to ‘True’.
 
 ## Endpoint (Click this url first to check the server is UP or NOT)
 
@@ -37,16 +37,18 @@ ip_info (Bonus)
 ## Required (as JSON data)
 
 ```python
-'query_domain': 'TARGET DOMAIN'
+{'query_domain': 'TARGET DOMAIN'}
 ```
 
-## Modes
+## Modes (as JSON data)
 
 ```python
-'zoomeye': False
-'subwhois': False
-'dumpster': False
-'port_scan': False
+{
+    'zoomeye': False,
+    'subwhois': False,
+    'dumpster': False,
+    'port_scan': False
+}
 ```
 
 ## Usage
