@@ -1,0 +1,42 @@
+{
+    "IP Address": "104.28.205.48",
+    "Reputation": {
+        "Fraud Risk": "Low Risk",
+        "Fraud Score (0-100)": "8"
+    },
+    "Operator": {
+        "Hostname": "n/a",
+        "ASN": "13335 - CLOUDFLARENET - Cloudflare, Inc.",
+        "ISP Name": "Cloudflare, Inc.",
+        "Organization Name": "Cloudflare",
+        "Connection type": "n/a"
+    },
+    "Location": {
+        "Country Name": "Malaysia",
+        "Country Code": "MY",
+        "Region": "Kuala Lumpur",
+        "City": "Kuala Lumpur (Kampung Attap)",
+        "Postal Code": "50460",
+        "Metro Code": "n/a",
+        "Area Code": "n/a",
+        "Latitude": "3.1370",
+        "Longitude": "101.6940"
+    },
+    "Port Scan": {
+        "HTTP80/http": "Closed",
+        "SSL443/ssl/http": "Closed",
+        "HTTP-PROXY8080/http-proxy": "Closed",
+        "OPSMESSAGING8090/opsmessaging": "Closed",
+        "TOR-ORPORT9001/tor-orport": "Closed",
+        "TCP9030/tcp/udp": "Closed",
+        "SSH22/ssh": "Closed"
+    },
+    "Proxies": {
+        "Anonymizing VPN": "No",
+        "Tor Exit Node": "No",
+        "Server": "Yes",
+        "Public Proxy": "No",
+        "Web Proxy": "No",
+        "Search Engine Robot": "No"
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "IP Address": "37.19.205.147",
+    "Reputation": {
+        "Fraud Risk": "Low Risk",
+        "Fraud Score (0-100)": "18"
+    },
+    "Operator": {
+        "Hostname": "unn-37-19-205-147.datapacket.com",
+        "ASN": "212238",
+        "ISP Name": "Datacamp Limited",
+        "Organization Name": "Cdnext TYO",
+        "Connection type": "n/a"
+    },
+    "Location": {
+        "Country Name": "Japan",
+        "Country Code": "JP",
+        "Region": "Tokyo",
+        "City": "Shibuya",
+        "Postal Code": "150-0002",
+        "Metro Code": "n/a",
+        "Area Code": "n/a",
+        "Latitude": "35.6762",
+        "Longitude": "139.6500"
+    },
+    "Port Scan": {
+        "HTTP80/http": "Closed",
+        "SSL443/ssl/http": "Closed",
+        "HTTP-PROXY8080/http-proxy": "Closed",
+        "OPSMESSAGING8090/opsmessaging": "Closed",
+        "TOR-ORPORT9001/tor-orport": "Closed",
+        "TCP9030/tcp/udp": "Closed",
+        "SSH22/ssh": "Closed"
+    },
+    "Proxies": {
+        "Anonymizing VPN": "Yes",
+        "Tor Exit Node": "No",
+        "Server": "No",
+        "Public Proxy": "No",
+        "Web Proxy": "No",
+        "Search Engine Robot": "No"
+    }
+}
