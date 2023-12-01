@@ -20,6 +20,8 @@
 -   SubWhois (Subdomains) - **_False_** by default
 -   DNS Dumpster (DNS Info) - **_False_** by default
 -   Port Scanner (Scanning port on Real IP) - **_False_** by default
+> **Note**
+> Enable the Port Scanner only if both CrimeFlare and ZoomEye are set to ‘True’.
 
 ## Endpoint (Click this url first to check the server is UP or NOT)
 
@@ -81,6 +83,8 @@ print(response.text)
 ```
 
 -   ### All Modes (CrimeFlare, ZoomEye, SubWhois, DNSDumpster) + Port Scanner
+> **Note**
+> It is not recommended to run all modes simultaneously.
 
 ```python
 import requests
